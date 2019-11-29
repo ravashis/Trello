@@ -1,0 +1,71 @@
+body{
+    background-color:  #cabcb9 ;
+}
+
+#container {
+    text-align: center;
+    margin:auto;
+    background: white;
+    width: 350px;
+    height:800px;
+    border: 10px solid #01a3a4;
+}
+
+#container h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#container ul li label{
+    line-height: 40px;
+    font-size:18px;
+}
+
+#container ul li{
+    text-align: left;
+    border: 2px solid #b5c5dd;
+    border-radius: 10px;
+    opacity:0;
+    transition: opacity 0.5s ease-in-out;
+    margin:5px;
+}
+
+#container .footer button
+{
+    color: white;
+}
+
+#container .footer button:focus
+{
+    outline: 0;
+}
+
+#container .footer button:hover
+{
+    transform: scale(1.05);
+}
+
+#container .footer #add
+{
+    background-color: #2980b9;
+    border-radius: 10px;
+}
+
+#container .footer #remove
+{
+    background-color: #c0392b;
+    border-radius: 10px;
+}
+
+#container .check
+{
+    opacity:1;
+    border-radius:10px;
+}
+
+.visual
+{
+    opacity:1 !important;
+    border-radius: 10px;
+}
